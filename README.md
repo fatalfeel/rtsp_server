@@ -1,5 +1,5 @@
 ## Rtsp Server
-- RTSP server and pusher based on C++14
+- RTSP server and pusher based on c++14
 - Test on x86 and arm pass
 
 ## Features
