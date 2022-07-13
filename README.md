@@ -1,26 +1,25 @@
-﻿## RtspServer
-A RTSP server and pusher based on C++11
-
-[中文介绍](https://github.com/PHZ76/RtspServer/blob/master/README_CN.md)
+## Rtsp Server
+- RTSP server and pusher based on C++14
+- Test on x86 and arm pass
 
 ## Features
  - Support Linux and Windows platforms.
  - Support H.264/H.265/G711A/AAC
- - Support unicast(rtp over udp, rtp over rtsp), multicast
+ - Support rtp over udp, rtp over tcp
  - Support digest authentication
 
-## Requirements
-- Compiler support c++11, gcc4.8/vs2015 or above.
+## Refer to
+- https://github.com/PHZ76/RtspServer
+- https://github.com/ChristianFeldmann/h264Bitstream
+- https://github.com/Dillon14281118/h265bitstream
+- https://github.com/BobCromwell/aac-stream-analyzer
+- http://www.live555.com/liveMedia/public
+- http://fatalfeel.blogspot.com/2013/12/rtsp-server-for-h264-h265-aac.html
 
-## Example
- - [rtsp-server](https://github.com/PHZ76/RtspServer/blob/master/example/rtsp_h264_file.cpp)
- - [DesktopSharing](https://github.com/PHZ76/DesktopSharing)
-
-## Dependencies
- - [websocketpp-md5](https://github.com/zaphoyd/websocketpp)
-
-## License
- - [MIT License](https://github.com/PHZ76/RtspServer/blob/master/LICENSE)
-
-## Contact
- - Email: penghaoze76@qq.com
+## Famous quotes 
+- Tesla told in New York Herald: I prefer to be remembered as the inventor who succeeded in abolishing war. That will be my highest pride.
+http://www.teslacollection.com/tesla_articles/1898/new_york_herald/f_l_christman/tesla_declares_he_will_abolish_war (in middle section)
+- Albert Einstein: The release of atom power has changed everything except our way of thinking... the solution to this problem lies in the heart of mankind. If only I had known, I should have become a watchmaker.
+https://atomictrauma.wordpress.com/the-scientists/albert-einstein
+- Joseph Redmon: I stopped doing CV research because I saw the impact my work was having. I loved the work but the military applications and privacy concerns eventually became impossible to ignore.
+https://twitter.com/pjreddie/status/1230524770350817280
