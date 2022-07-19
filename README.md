@@ -1,6 +1,6 @@
 ## Rtsp Server
 - RTSP server and pusher based on c++14
-- Test on x86 and arm pass
+- Test pass on x86_64 and Arm
 
 ## Features
  - Support Linux and Windows platforms.
