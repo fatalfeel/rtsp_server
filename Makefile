@@ -8,15 +8,15 @@ CROSS_COMPILE =
 #CROSS_COMPILE = /opt/ivot/arm-ca9-linux-gnueabihf-6.5/bin/arm-ca9-linux-gnueabihf-
 CXX = $(CROSS_COMPILE)g++
 
-CXXFLAGS	 = -I./src
-CXXFLAGS	+= -I./src/3rdpart
-CXXFLAGS	+= -I./src/bsalgo
-CXXFLAGS	+= -I./src/net
-CXXFLAGS	+= -I./src/xop
-#CXXFLAGS   += -O0 -g -fPIC -pthread -fmessage-length=0 -std=c++14
-CXXFLAGS	+= -O3 -g -fPIC -pthread -fmessage-length=0 -std=c++14
-LDFLAGS		 = -ldl -lm -lrt -lpthread
-OBJDIR		 = ./objs
+CXXFLAGS = -I./src
+CXXFLAGS += -I./src/3rdpart
+CXXFLAGS += -I./src/bsalgo
+CXXFLAGS += -I./src/net
+CXXFLAGS += -I./src/xop
+#CXXFLAGS+= -O0 -g -fPIC -pthread -fmessage-length=0 -std=c++14
+CXXFLAGS += -O3 -g -fPIC -pthread -fmessage-length=0 -std=c++14
+LDFLAGS = -ldl -lm -lrt -lpthread
+OBJDIR = ./objs
 
 $(shell mkdir -p $(OBJDIR))
 
