@@ -1,6 +1,8 @@
 ## Rtsp Server
-- RTSP server and pusher based on c++14
-- Test pass on x86_64 and Arm
+- RTSP server and test pass on x86_64 and armv8
+- make all -j8
+- ./rtsp_h264_file test.264
+- ffplay rtsp://127.0.0.1:554/live
 
 ## Features
  - Support Linux and Windows platforms.
